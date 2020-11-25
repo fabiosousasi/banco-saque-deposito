@@ -44,11 +44,13 @@ public class Banco {
 
 		// INFORMAÇÃO SOBRE OS DADOS
 		System.out.println("\nSEUS DADOS ATUAIS...");
-		System.out.println("Nome titular: " + conta.getNome());
+		/*System.out.println("Nome titular: " + conta.getNome());
 		System.out.println("CPF: " + conta.getCpf().substring(0, 3) + "." + conta.getCpf().substring(3, 6) + "." + conta.getCpf().substring(6, 9) 
 				            + "-" + conta.getCpf().substring(9, 11));
 		System.out.println("Agência: " + conta.getAgencia());
 		System.out.println("Seu saldo atual: " + saldo);
+		*/
+		System.out.println(conta);
 
 		System.out.println("*****************************************************************************************");
 
@@ -81,12 +83,13 @@ public class Banco {
 		// DADOS ATUALIZADOS
 		System.out.println("********************************************************************");
 		System.out.println("\nSEU SALDO DEPOIS DA OPERAÇÃO EFETUADA...");
-		System.out.println("Nome titular: " + conta.getNome());
+		/*System.out.println("Nome titular: " + conta.getNome());
 		System.out.println("CPF: " + conta.getCpf().substring(0, 3) + "." + conta.getCpf().substring(3, 6) + "." + conta.getCpf().substring(6, 9) 
 				+ "-" + conta.getCpf().substring(9, 11));
 		System.out.println("Agência: " + conta.getAgencia());
 		System.out.printf("\nSeu saldo atual: %.2f", conta.getSaldo());
-
+		*/
+		System.out.println(conta);
 	}
 
 }
