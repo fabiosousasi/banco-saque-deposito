@@ -3,13 +3,13 @@ package entidadeBanco;
 public class Conta {
 	private String nome;
 	private String cpf;
-	private Integer agencia;
+	private String agencia;
 	private Double saldo;
 	
 	//CONSTRUTOR
 	public Conta() {
 	}
-	public Conta(String nome, String cpf, Integer agencia, Double saldo) {
+	public Conta(String nome, String cpf, String agencia, Double saldo) {
 		this.nome = nome;
 		this.cpf = cpf;
 		this.agencia = agencia;
@@ -26,10 +26,10 @@ public class Conta {
 	public String getCpf() {
 		return cpf;
 	}
-	public Integer getAgencia() {
+	public String getAgencia() {
 		return agencia;
 	}
-	public void setAgencia(Integer agencia) {
+	public void setAgencia(String agencia) {
 		this.agencia = agencia;
 	}
 	public Double getSaldo() {
