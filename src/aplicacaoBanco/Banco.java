@@ -40,10 +40,7 @@ public class Banco {
 			agencia = sc.nextLine();
 		}
 		
-		System.out.print("Informe seu saldo: ");
-		double saldo = sc.nextDouble();
-		
-		Conta conta = new Conta(nome, cpf, agencia, saldo);
+		Conta conta = new Conta(nome, cpf, agencia, 2000.00);
 
 		System.out.println("*****************************************************************************************");
 
